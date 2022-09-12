@@ -73,8 +73,6 @@ body {
 
 .card > picture {
     background-color: hsl(279, 90%, 36%);
-    background-blend-mode: multiply;
-    /* position: relative; */
 }
 .card > picture > img {
     flex: 1 0 50%;
