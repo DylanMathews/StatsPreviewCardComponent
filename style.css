@@ -73,11 +73,15 @@ body {
 
 .card > picture {
     background-color: hsl(279, 90%, 36%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .card > picture > img {
     flex: 1 0 50%;
     height: 100%;
     opacity: 0.5;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -98,10 +102,14 @@ body {
     }
     .card > picture {
         order: -1;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 10px;
     }
 
     .card > picture > img {
         object-fit: cover;
         width: 100%;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 10px;
     }
 }
