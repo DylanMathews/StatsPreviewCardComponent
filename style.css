@@ -41,7 +41,7 @@ body {
 }
 
 .card > .content > .stats > li > .numerical {
-    color: hsla(0, 0%, 100%, 0.6);
+    color: hsl(0, 0%, 100%);
     font-weight: 700;
 }
 
