@@ -43,6 +43,7 @@ body {
 .card > .content > .stats > li > .numerical {
     color: hsl(0, 0%, 100%);
     font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .card > .content > .stats {
