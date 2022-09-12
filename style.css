@@ -27,6 +27,8 @@ body {
 
     font-size: 15px;
     background-color: hsl(244, 38%, 16%);
+
+    border-radius: 10px;
 }
 
 .card > .content {
