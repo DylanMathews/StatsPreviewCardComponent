@@ -10,9 +10,23 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(233, 47%, 7%);
 }
 
 .card {
     display: flex;
     max-width: 800px;
+
+    font-size: 15px;
+    background-color: hsl(244, 38%, 16%);
+}
+
+.card > .content > .title {
+    color: hsl(0, 0%, 100%);
+}
+
+.card > .content > .stats > li > .numerical {
+    color: hsla(0, 0%, 100%, 0.6);
 }
