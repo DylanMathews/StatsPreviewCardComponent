@@ -81,3 +81,29 @@ body {
     height: 100%;
     opacity: 0.5;
 }
+
+@media only screen and (max-width: 1000px) {
+    .card {
+        flex-direction: column;
+        max-width: 350px;
+        text-align: center;
+    }
+
+    .card > .content {
+        padding: 2.5rem;
+    }
+
+    .card > .content > .stats {
+        flex-direction: column;
+        margin-top: 0;
+        gap: 2rem;
+    }
+    .card > picture {
+        order: -1;
+    }
+
+    .card > picture > img {
+        object-fit: cover;
+        width: 100%;
+    }
+}
