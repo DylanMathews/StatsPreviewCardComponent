@@ -24,6 +24,9 @@ body {
 }
 
 .card > .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     padding: 4rem;
 }
 
@@ -33,4 +36,9 @@ body {
 
 .card > .content > .stats > li > .numerical {
     color: hsla(0, 0%, 100%, 0.6);
+}
+
+.card > .content > .stats {
+    display: flex;
+    gap: 4.5rem;
 }
