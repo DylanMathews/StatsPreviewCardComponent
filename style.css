@@ -13,6 +13,8 @@ body {
 
     color: hsla(0, 0%, 100%, 0.75);
     background-color: hsl(233, 47%, 7%);
+    font-family: Inter;
+    font-weight: 400;
 }
 
 .accent {
@@ -40,9 +42,12 @@ body {
 
 .card > .content > .stats > li > .numerical {
     color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 700;
 }
 
 .card > .content > .stats {
     display: flex;
     gap: 4.5rem;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
 }
